@@ -1,22 +1,16 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-// member variable in structue
-// member function in  structure and member function using scop resolution
-// access modifier -> private , public , protected
-// default access modifier in structure is public
-struct Book{
+class Book{  // this is our class
 
-    private :
-
-    string book_name;  // member variable 
-    string author_name;  // member variable 
+    string book_name;  // properties 
+    string author_name;  // properties
     int pages;
     float price;
 
     public :
 
-    void setData()  // member function is access member variable directly
+    void setData()  // methods
     {
         cout << "Enter Book Name : ";
         cin >> book_name;
@@ -49,14 +43,8 @@ void Book::getData()
 int main()
 {
     system("CLS");
-    Book b1,b2,b3;
+    Book b1,b2,b3;  // b1,b2,b3 is our object
 
-    // strcpy(b1.book_name,"Ramayan");
-    // strcpy(b1.author_name,"Ved Vyas");
-    // b1.book_name = "Ramayan";
-    // b1.author_name = "Ved Vyas";
-    // b1.pages = 867;
-    // b1.price = -950.50;
     b1.setData();
 
     b2.setData(); // b2 call setData function
