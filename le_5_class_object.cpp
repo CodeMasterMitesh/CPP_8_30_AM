@@ -1,6 +1,20 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
+
+// In C++, a class is a user-defined data type that serves as a blueprint or template for creating objects. It encapsulates data (data members) and functions (member functions) that operate on that data into a single unit.
+// Key characteristics of a C++ class include:
+// Encapsulation:
+// It bundles data and the methods that operate on that data within a single unit, controlling access to the data through access specifiers (e.g., public, private, protected).
+// Blueprint for Objects:
+// A class defines the structure and behavior of objects that will be created from it. Objects are instances of a class.
+// Data Members (Attributes):
+// These are variables declared within the class that represent the properties or state of an object.
+// Member Functions (Methods):
+// These are functions defined within the class that operate on the data members and define the behavior of an object.
+// No Memory Allocation (for the class itself):
+// A class definition does not allocate memory; memory is allocated only when an object (an instance of the class) is created.
+
 class Book{  // this is our class
 
     string book_name;  // properties 
