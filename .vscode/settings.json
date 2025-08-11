@@ -59,6 +59,7 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "ostream": "cpp",
-    "iostream": "cpp"
+    "iostream": "cpp",
+    "le_9_castingcpp": "cpp"
   }
 }
