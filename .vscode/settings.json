@@ -60,6 +60,7 @@
     "*.dbclient-js": "javascript",
     "ostream": "cpp",
     "iostream": "cpp",
-    "le_9_castingcpp": "cpp"
+    "le_9_castingcpp": "cpp",
+    "random": "cpp"
   }
 }
