@@ -61,6 +61,7 @@
     "ostream": "cpp",
     "iostream": "cpp",
     "le_9_castingcpp": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "iosfwd": "cpp"
   }
 }
