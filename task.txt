@@ -1,0 +1,14 @@
+Basic Banking System 
+BANK CLASS
+customer class 
+Accounts class 
+
+
+functionality 
+withdrowal -> 
+
+deposit ->  
+
+create new account 
+close account 
+balance check 
