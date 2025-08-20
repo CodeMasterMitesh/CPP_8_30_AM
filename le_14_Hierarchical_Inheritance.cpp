@@ -20,13 +20,41 @@ class Animal{
  }
 
 };
+
+class Tiger : public Animal{
+
+};
+
+class Lion : public Animal{
+
+};
+
+class Cat : public Animal{
+
+};
+
+class Dog : public Animal{
+
+};
 int main()
 {
     system("CLS");
     
-   Animal Tiger;
+   Tiger t;
+   Lion l1;
+   Cat c1;
+   Dog d;
 
-   Tiger.setData("Rocky","Roar Roar");
-   Tiger.showData();
+   t.setData("Rocky","Roar Roar");
+   t.showData();
+
+   l1.setData("Jago","Roar Roar");
+   l1.showData();
+
+   c1.setData("Pinky","Meow Meow");
+   c1.showData();
+
+   d.setData("Dogesh bhai","Bhow Bhow");
+   d.showData();
     return 0;
 }
