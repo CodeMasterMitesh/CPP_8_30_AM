@@ -25,6 +25,7 @@ class Temp{
 int main()
 {
     system("CLS");
+    // Temp t1,t2,t3;
     Temp <int>t1;
     Temp <float>t2;
     Temp <string>t3;
